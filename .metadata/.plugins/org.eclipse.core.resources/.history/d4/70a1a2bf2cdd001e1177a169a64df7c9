@@ -1,0 +1,8 @@
+package com.exercise.spring.main.beans;
+
+public class BusinessCalculationService {
+	public DataService dataService;
+
+	public BusinessCalculationService() {
+	}
+}

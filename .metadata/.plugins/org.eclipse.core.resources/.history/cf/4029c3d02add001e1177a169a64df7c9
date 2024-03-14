@@ -1,0 +1,5 @@
+package com.exercise.spring.main.beans;
+
+public class MySQLDataService {
+
+}

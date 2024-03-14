@@ -1,0 +1,11 @@
+
+package com.exercise.spring.main;
+
+public class BusinessCalculationService {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

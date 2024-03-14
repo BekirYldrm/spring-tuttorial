@@ -1,0 +1,11 @@
+package com.exercise.spring.main.beans;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class BusinessCalculationService {
+	public DataService dataService;
+
+	public BusinessCalculationService() {
+	}
+}

@@ -1,0 +1,28 @@
+
+package com.exercise.spring.main;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+import com.exercise.spring.main.beans.MongoDbDataService;
+
+@Configuration
+@ComponentScan("com.exercise.spring.main.beans")
+public class BusinessCalculationService {
+
+	public static void main(String[] args) {
+		
+		
+		
+		try(var context = new AnnotationConfigApplicationContext(BusinessCalculationService.class)){
+			
+			
+			System.out.println(context.getBean(MongoDbDataService.class));
+			
+		}
+		
+
+	}
+
+}
