@@ -1,0 +1,4 @@
+com\in28minutes\learnspringboot\LearnSpringBootApplication.class
+com\in28minutes\learnspringboot\courses\controller\CourseController.class
+com\in28minutes\learnspringboot\courses\entity\Course.class
+com\in28minutes\learnspringboot\courses\repository\CourseRepository.class
